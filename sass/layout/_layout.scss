@@ -1,6 +1,17 @@
+//-----------------------------CSSaccueil--------------------
 body{
-    background-image:linear-gradient(to bottom, black, white);
+    background-image:linear-gradient(to bottom, black, black, #21759b, aliceblue);	
+   color:white;
 }
+
+.site-header.featured-image .site-title a{
+   font-family: 'Monoton', cursive;
+}
+
+#colophon .site-info a{
+   color: #21759b;
+}
+//------------------FIN_CSSaccueil--------------------
 
 .entry .entry-content{
     
@@ -11,9 +22,9 @@ body{
 
     a:hover{
         text-decoration:underline dotted #3b96d3;
-    }
+}
 
-     p.has-background {
+    p.has-background{
         background-image:linear-gradient(to bottom, white, black);
         border-radius:0.5em;
         border-bottom:0.2em solid #3b96d3;
