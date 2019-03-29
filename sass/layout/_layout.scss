@@ -11,6 +11,11 @@ body{
 #colophon .site-info a{
    color: #21759b;
 }
+
+.site-title a:link{
+	color:#21759b;
+	text-shadow: 0.05em 0.05em rgba(255, 255, 255, 0.8)
+}
 //------------------FIN_CSSaccueil--------------------
 
 .entry .entry-content{
