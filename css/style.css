@@ -826,6 +826,10 @@ body {
   text-shadow: 0.05em 0.05em rgba(255, 255, 255, 0.8);
 }
 
+.archive .page-header .page-description {
+  color: white;
+}
+
 .entry .entry-content a {
   color: white;
   text-decoration: none;
