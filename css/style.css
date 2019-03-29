@@ -815,6 +815,7 @@ body {
 .entry .entry-content a {
   color: white;
   text-decoration: none;
+  text-shadow: 0.1em 0.05em #154961;
 }
 
 .entry .entry-content a:hover {
