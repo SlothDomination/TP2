@@ -1,0 +1,50 @@
+body{
+    background-image:linear-gradient(to bottom, black, white);
+}
+
+.entry .entry-content{
+    
+    a{
+        color:white;
+        text-decoration:none;
+        }
+
+    a:hover{
+        text-decoration:underline dotted #3b96d3;
+    }
+
+     p.has-background {
+        background-image:linear-gradient(to bottom, white, black);
+        border-radius:0.5em;
+        border-bottom:0.2em solid #3b96d3;
+        color:black;
+        text-shadow: 2px 2px #3b96d3;
+    }
+
+    p.nouvelles{
+        color:white;
+        text-shadow: 2px 2px #3b96d3;
+    }
+}
+
+h1.entry-title{
+    color:white;
+        text-shadow: 2px 2px #3b96d3; 
+}
+
+span{
+    color:rgba(59, 150, 211, 0.5);
+}
+
+span.meta-nav{
+       text-shadow: 2px 2px rgba(59, 150, 211, 0.2);
+}
+
+div.wp-block-media-text__content p{
+	color:white;
+}
+
+p.site-title{
+    color:white;
+    text-shadow: 2px 2px rgba(59, 150, 211, 0.2);
+}
