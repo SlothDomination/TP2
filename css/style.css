@@ -912,8 +912,6 @@ p.site-title {
 @-webkit-keyframes anim3 {
   0% {
     background: -webkit-linear-gradient(to left, white, blue, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     -webkit-transform: translateX(0%) scale(0.5, 0.5);
             transform: translateX(0%) scale(0.5, 0.5);
   }
@@ -923,8 +921,6 @@ p.site-title {
   }
   100% {
     background: white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     -webkit-transform: translateX(0) scale(1, 1);
             transform: translateX(0) scale(1, 1);
   }
@@ -933,8 +929,6 @@ p.site-title {
 @keyframes anim3 {
   0% {
     background: -webkit-linear-gradient(to left, white, blue, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     -webkit-transform: translateX(0%) scale(0.5, 0.5);
             transform: translateX(0%) scale(0.5, 0.5);
   }
@@ -944,8 +938,6 @@ p.site-title {
   }
   100% {
     background: white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     -webkit-transform: translateX(0) scale(1, 1);
             transform: translateX(0) scale(1, 1);
   }

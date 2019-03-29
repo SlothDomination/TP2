@@ -21,8 +21,6 @@
 @keyframes anim3 {
     0%{
         background: -webkit-linear-gradient(to left, white, blue, blue);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
         transform: translateX(0%) scale(0.5, 0.5);
     }
 
@@ -32,8 +30,7 @@
     
     100%{
         background: white;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+
         transform: translateX(0) scale(1, 1);
     }
 
