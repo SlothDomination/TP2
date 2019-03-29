@@ -844,6 +844,14 @@ article.post {
   background-image: linear-gradient(#3b96d3, black);
 }
 
+.titre-projet {
+  border-bottom: 0.2em dotted white;
+}
+
+#liste-cours h1 {
+  text-shadow: 0.05em 0.05em #3b96d3;
+}
+
 .entry .entry-content a {
   color: white;
   text-decoration: none;
