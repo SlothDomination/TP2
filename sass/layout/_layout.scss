@@ -23,12 +23,20 @@ body{
         text-shadow: 2px 2px #3b96d3;
     }
 
-
     p.nouvelles{
         color:white;
         text-shadow: 2px 2px #3b96d3;
     }
 }
+
+//image à côté du evenements dans la front-page
+figcaption img{
+	border-bottom:0.1em dotted white;
+	border-top:0.2em dotted aliceblue;
+	border-radius:20em;
+	box-shadow:0em 0.5em 0.5em rgba(0,0,0,0.2);
+}
+
 
 h1.entry-title{
     color:white;
