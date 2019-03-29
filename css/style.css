@@ -854,6 +854,38 @@ figcaption img {
           box-shadow: 0em 0.5em 0.5em rgba(0, 0, 0, 0.2);
 }
 
+.date-event {
+  -webkit-text-decoration: underline #3b96d3;
+          text-decoration: underline #3b96d3;
+}
+
+.post-navigation .nav-links a .meta-nav {
+  color: white;
+  opacity: 0.5;
+}
+
+.widget-title {
+  text-shadow: 0.1em 0.1em #3b96d3;
+}
+
+.widget_recent_entries ul li a {
+  color: white;
+  opacity: 0.5;
+}
+
+.widget_recent_entries ul li a:hover {
+  opacity: 1;
+  color: white;
+  -webkit-text-decoration: dotted underline;
+          text-decoration: dotted underline;
+}
+
+li.cat-item a:hover {
+  color: white;
+  -webkit-text-decoration: dotted underline;
+          text-decoration: dotted underline;
+}
+
 h1.entry-title {
   color: white;
   text-shadow: 2px 2px #3b96d3;
