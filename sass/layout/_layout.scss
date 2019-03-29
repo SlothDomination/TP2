@@ -14,10 +14,11 @@ body{
     }
 
      p.has-background {
-        background-image:linear-gradient(to bottom, white, black);
+        color:white;	
+        background:rgba(255,255,255,0.6);
+        border-top:0.2em solid white;
         border-radius:0.5em;
         border-bottom:0.2em solid #3b96d3;
-        color:black;
         text-shadow: 2px 2px #3b96d3;
     }
 
