@@ -1,6 +1,6 @@
 //-----------------------------CSSaccueil--------------------
 body{
-    background-image:linear-gradient(to bottom, black, black, #21759b, aliceblue);	
+    background-image:linear-gradient(to bottom, yellow, aliceblue);	
    color:white;
 }
 
@@ -13,25 +13,25 @@ body{
 }
 
 .site-title a:link{
-	color:#21759b;
-	text-shadow: 0.05em 0.05em rgba(255, 255, 255, 0.8)
+   color:#21759b;
+   text-shadow: 0.05em 0.05em rgba(255, 255, 255, 0.8)
 }
 
 .archive .page-header .page-description{
-	color:white;
+   color:white;
 }
 
 .entry .entry-title a{
-	text-shadow:0.1em 0.15em #154961;
+   text-shadow:0.1em 0.15em #154961;
 }
 
 .entry .entry-title a:hover{
-	text-shadow:0.05em 0.1em white; 
-	color:#154961;
+   text-shadow:0.05em 0.1em white; 
+   color:#154961;
 }
 
 article.post{
-	background-image:linear-gradient(#3b96d3, black);
+   background:rgba(255, 255, 255, 0.5);
 }
 
 //------------------FIN_CSSaccueil--------------------
@@ -45,39 +45,12 @@ article.post{
 	text-shadow: 0.05em 0.05em #3b96d3
 }
 //------------------FIN_CSScours----------------------
-.entry .entry-content{
-    
-    a{
-        color:white;
-        text-decoration:none;
-        text-shadow:0.1em 0.05em #154961;
-    }
-
-    a:hover{
-        text-decoration:underline dotted #3b96d3;
+.titre-projet{
+	border-bottom: 0.2em dotted white;
 }
 
-     p.has-background {
-        color:white;	
-        background:rgba(255,255,255,0.6);
-        border-top:0.2em solid white;
-        border-radius:0.5em;
-        border-bottom:0.2em solid #3b96d3;
-        text-shadow: 2px 2px #3b96d3;
-    }
-
-    p.nouvelles{
-        color:white;
-        text-shadow: 2px 2px #3b96d3;
-    }
-}
-
-//image à côté du evenements dans la front-page
-figcaption img{
-	border-bottom:0.1em dotted white;
-	border-top:0.2em dotted aliceblue;
-	border-radius:20em;
-	box-shadow:0em 0.5em 0.5em rgba(0,0,0,0.2);
+#liste-cours h1{
+	text-shadow: 0.05em 0.05em #3b96d3
 }
 
 //-------------------Navigation--------------------------------
@@ -85,16 +58,65 @@ figcaption img{
 	color:white;
 }
 
+.svg-icon g:hover{
+		color:white;	
+}
+
+.svg-icon:hover{animation:tourneIconMenu 0.2s;
+animation-fill-mode:forwards;
+}
+
+@keyframes tourneIconMenu{
+	from{transform:rotateZ(0deg)}
+	to{transform:rotateZ(90deg)}
+}
+
+.main-navigation .sub-menu{
+	background-color:rgba(255, 255, 255, 0.2);
+	border-radius:0.5em;
+}
+
+.main-navigation .sub-menu > li > a{
+	color:white;
+	border-radius:0em 0.5em 0em 0.5em;
+}
+
+.main-navigation .sub-menu li.menu-item a:hover{
+	background:white;
+	color:#154961;
+}
+
 //-------------------FIN_Nagigation----------------------------
 
 
 //-------------------page evenements------------------------------
+.entry .entry-content p.has-background{	background:rgba(255,255,255,0.6);
+	border-top:0.2em solid white;
+	text-shadow:0.05em 0.05em #3b96d3;
+}
+
+.entry .entry-content a{
+	text-shadow:0.02em 0.05em #154961;
+	color:white;
+	
+}
+
+div.wp-block-media-text__content p{
+	color:#154961;
+}
+
+figcaption img{
+	border-bottom:0.1em dotted white;
+	border-top:0.2em dashed white;
+	border-radius:20em;
+	box-shadow:0em 0.5em 0.5em rgba(0,0,0,0.2);
+}
+
 .date-event{
 	text-decoration:underline #3b96d3 ;
 }
 
 .post-navigation .nav-links a .meta-nav{
-	color:white;
 	opacity:0.5;
 }
 
@@ -103,14 +125,14 @@ figcaption img{
 }
 
 .widget_recent_entries ul li a{
-	color:white;
 	opacity:0.5;
 }
 
 .widget_recent_entries ul li a:hover{
 	opacity:1;
-	color:white;
 	text-decoration:dotted underline;
+	text-shadow: 0.05em 0.05em white;
+	color:#3b96d3;
 }
 
 li.cat-item a:hover {
