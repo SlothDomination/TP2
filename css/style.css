@@ -889,6 +889,10 @@ figcaption img {
   color: white;
 }
 
+.svg-icon g:hover {
+  color: white;
+}
+
 .date-event {
   -webkit-text-decoration: underline #3b96d3;
           text-decoration: underline #3b96d3;
@@ -1038,5 +1042,34 @@ p.site-title {
           animation: anim3 0.5s forwards;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+}
+
+.svg-icon:hover {
+  -webkit-animation: tourneIconMenu 0.2s;
+          animation: tourneIconMenu 0.2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes tourneIconMenu {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(90deg);
+            transform: rotateZ(90deg);
+  }
+}
+
+@keyframes tourneIconMenu {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(90deg);
+            transform: rotateZ(90deg);
+  }
 }
 /*# sourceMappingURL=style.css.map */

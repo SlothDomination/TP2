@@ -50,3 +50,13 @@
     animation: anim3 0.5s forwards;
     animation-fill-mode: forwards;
 }
+
+
+.svg-icon:hover{animation:tourneIconMenu 0.2s;
+    animation-fill-mode:forwards;
+    }
+    
+    @keyframes tourneIconMenu{
+        from{transform:rotateZ(0deg)}
+        to{transform:rotateZ(90deg)}
+    }
